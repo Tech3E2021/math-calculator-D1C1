@@ -28,6 +28,7 @@ namespace MathCalculator
                         DoClient(tempClient);
                     });
                 }
+                server.Stop();
             }
             catch (SocketException e)
             {
